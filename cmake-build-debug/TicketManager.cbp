@@ -80,6 +80,42 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Michal/Desktop/C adventures/TicketManager/Defect.cpp">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="C:/Users/Michal/Desktop/C adventures/TicketManager/Defect.h">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="C:/Users/Michal/Desktop/C adventures/TicketManager/Task.cpp">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="C:/Users/Michal/Desktop/C adventures/TicketManager/Task.h">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="C:/Users/Michal/Desktop/C adventures/TicketManager/Test.cpp">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="C:/Users/Michal/Desktop/C adventures/TicketManager/Test.h">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="C:/Users/Michal/Desktop/C adventures/TicketManager/Ticket.cpp">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="C:/Users/Michal/Desktop/C adventures/TicketManager/Ticket.h">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="C:/Users/Michal/Desktop/C adventures/TicketManager/TicketBuilder.cpp">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="C:/Users/Michal/Desktop/C adventures/TicketManager/TicketBuilder.h">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="C:/Users/Michal/Desktop/C adventures/TicketManager/UserStory.cpp">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="C:/Users/Michal/Desktop/C adventures/TicketManager/UserStory.h">
+			<Option target="TicketManager"/>
+		</Unit>
 		<Unit filename="C:/Users/Michal/Desktop/C adventures/TicketManager/main.cpp">
 			<Option target="TicketManager"/>
 		</Unit>

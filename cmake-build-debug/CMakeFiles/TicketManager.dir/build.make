@@ -89,19 +89,109 @@ CMakeFiles/TicketManager.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TicketManager.dir/main.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Michal\Desktop\C adventures\TicketManager\main.cpp" -o CMakeFiles\TicketManager.dir\main.cpp.s
 
+CMakeFiles/TicketManager.dir/Ticket.cpp.obj: CMakeFiles/TicketManager.dir/flags.make
+CMakeFiles/TicketManager.dir/Ticket.cpp.obj: ../Ticket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Michal\Desktop\C adventures\TicketManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TicketManager.dir/Ticket.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TicketManager.dir\Ticket.cpp.obj -c "C:\Users\Michal\Desktop\C adventures\TicketManager\Ticket.cpp"
+
+CMakeFiles/TicketManager.dir/Ticket.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TicketManager.dir/Ticket.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Michal\Desktop\C adventures\TicketManager\Ticket.cpp" > CMakeFiles\TicketManager.dir\Ticket.cpp.i
+
+CMakeFiles/TicketManager.dir/Ticket.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TicketManager.dir/Ticket.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Michal\Desktop\C adventures\TicketManager\Ticket.cpp" -o CMakeFiles\TicketManager.dir\Ticket.cpp.s
+
+CMakeFiles/TicketManager.dir/UserStory.cpp.obj: CMakeFiles/TicketManager.dir/flags.make
+CMakeFiles/TicketManager.dir/UserStory.cpp.obj: ../UserStory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Michal\Desktop\C adventures\TicketManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TicketManager.dir/UserStory.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TicketManager.dir\UserStory.cpp.obj -c "C:\Users\Michal\Desktop\C adventures\TicketManager\UserStory.cpp"
+
+CMakeFiles/TicketManager.dir/UserStory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TicketManager.dir/UserStory.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Michal\Desktop\C adventures\TicketManager\UserStory.cpp" > CMakeFiles\TicketManager.dir\UserStory.cpp.i
+
+CMakeFiles/TicketManager.dir/UserStory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TicketManager.dir/UserStory.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Michal\Desktop\C adventures\TicketManager\UserStory.cpp" -o CMakeFiles\TicketManager.dir\UserStory.cpp.s
+
+CMakeFiles/TicketManager.dir/Defect.cpp.obj: CMakeFiles/TicketManager.dir/flags.make
+CMakeFiles/TicketManager.dir/Defect.cpp.obj: ../Defect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Michal\Desktop\C adventures\TicketManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TicketManager.dir/Defect.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TicketManager.dir\Defect.cpp.obj -c "C:\Users\Michal\Desktop\C adventures\TicketManager\Defect.cpp"
+
+CMakeFiles/TicketManager.dir/Defect.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TicketManager.dir/Defect.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Michal\Desktop\C adventures\TicketManager\Defect.cpp" > CMakeFiles\TicketManager.dir\Defect.cpp.i
+
+CMakeFiles/TicketManager.dir/Defect.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TicketManager.dir/Defect.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Michal\Desktop\C adventures\TicketManager\Defect.cpp" -o CMakeFiles\TicketManager.dir\Defect.cpp.s
+
+CMakeFiles/TicketManager.dir/Test.cpp.obj: CMakeFiles/TicketManager.dir/flags.make
+CMakeFiles/TicketManager.dir/Test.cpp.obj: ../Test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Michal\Desktop\C adventures\TicketManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TicketManager.dir/Test.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TicketManager.dir\Test.cpp.obj -c "C:\Users\Michal\Desktop\C adventures\TicketManager\Test.cpp"
+
+CMakeFiles/TicketManager.dir/Test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TicketManager.dir/Test.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Michal\Desktop\C adventures\TicketManager\Test.cpp" > CMakeFiles\TicketManager.dir\Test.cpp.i
+
+CMakeFiles/TicketManager.dir/Test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TicketManager.dir/Test.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Michal\Desktop\C adventures\TicketManager\Test.cpp" -o CMakeFiles\TicketManager.dir\Test.cpp.s
+
+CMakeFiles/TicketManager.dir/Task.cpp.obj: CMakeFiles/TicketManager.dir/flags.make
+CMakeFiles/TicketManager.dir/Task.cpp.obj: ../Task.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Michal\Desktop\C adventures\TicketManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TicketManager.dir/Task.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TicketManager.dir\Task.cpp.obj -c "C:\Users\Michal\Desktop\C adventures\TicketManager\Task.cpp"
+
+CMakeFiles/TicketManager.dir/Task.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TicketManager.dir/Task.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Michal\Desktop\C adventures\TicketManager\Task.cpp" > CMakeFiles\TicketManager.dir\Task.cpp.i
+
+CMakeFiles/TicketManager.dir/Task.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TicketManager.dir/Task.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Michal\Desktop\C adventures\TicketManager\Task.cpp" -o CMakeFiles\TicketManager.dir\Task.cpp.s
+
+CMakeFiles/TicketManager.dir/TicketBuilder.cpp.obj: CMakeFiles/TicketManager.dir/flags.make
+CMakeFiles/TicketManager.dir/TicketBuilder.cpp.obj: ../TicketBuilder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Michal\Desktop\C adventures\TicketManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TicketManager.dir/TicketBuilder.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TicketManager.dir\TicketBuilder.cpp.obj -c "C:\Users\Michal\Desktop\C adventures\TicketManager\TicketBuilder.cpp"
+
+CMakeFiles/TicketManager.dir/TicketBuilder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TicketManager.dir/TicketBuilder.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Michal\Desktop\C adventures\TicketManager\TicketBuilder.cpp" > CMakeFiles\TicketManager.dir\TicketBuilder.cpp.i
+
+CMakeFiles/TicketManager.dir/TicketBuilder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TicketManager.dir/TicketBuilder.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Michal\Desktop\C adventures\TicketManager\TicketBuilder.cpp" -o CMakeFiles\TicketManager.dir\TicketBuilder.cpp.s
+
 # Object files for target TicketManager
 TicketManager_OBJECTS = \
-"CMakeFiles/TicketManager.dir/main.cpp.obj"
+"CMakeFiles/TicketManager.dir/main.cpp.obj" \
+"CMakeFiles/TicketManager.dir/Ticket.cpp.obj" \
+"CMakeFiles/TicketManager.dir/UserStory.cpp.obj" \
+"CMakeFiles/TicketManager.dir/Defect.cpp.obj" \
+"CMakeFiles/TicketManager.dir/Test.cpp.obj" \
+"CMakeFiles/TicketManager.dir/Task.cpp.obj" \
+"CMakeFiles/TicketManager.dir/TicketBuilder.cpp.obj"
 
 # External object files for target TicketManager
 TicketManager_EXTERNAL_OBJECTS =
 
 TicketManager.exe: CMakeFiles/TicketManager.dir/main.cpp.obj
+TicketManager.exe: CMakeFiles/TicketManager.dir/Ticket.cpp.obj
+TicketManager.exe: CMakeFiles/TicketManager.dir/UserStory.cpp.obj
+TicketManager.exe: CMakeFiles/TicketManager.dir/Defect.cpp.obj
+TicketManager.exe: CMakeFiles/TicketManager.dir/Test.cpp.obj
+TicketManager.exe: CMakeFiles/TicketManager.dir/Task.cpp.obj
+TicketManager.exe: CMakeFiles/TicketManager.dir/TicketBuilder.cpp.obj
 TicketManager.exe: CMakeFiles/TicketManager.dir/build.make
 TicketManager.exe: CMakeFiles/TicketManager.dir/linklibs.rsp
 TicketManager.exe: CMakeFiles/TicketManager.dir/objects1.rsp
 TicketManager.exe: CMakeFiles/TicketManager.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Michal\Desktop\C adventures\TicketManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable TicketManager.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Michal\Desktop\C adventures\TicketManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable TicketManager.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\TicketManager.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

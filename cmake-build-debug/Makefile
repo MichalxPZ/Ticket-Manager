@@ -142,6 +142,168 @@ TicketManager/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicketManager.dir\build.make CMakeFiles/TicketManager.dir/build
 .PHONY : TicketManager/fast
 
+Defect.obj: Defect.cpp.obj
+
+.PHONY : Defect.obj
+
+# target to build an object file
+Defect.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicketManager.dir\build.make CMakeFiles/TicketManager.dir/Defect.cpp.obj
+.PHONY : Defect.cpp.obj
+
+Defect.i: Defect.cpp.i
+
+.PHONY : Defect.i
+
+# target to preprocess a source file
+Defect.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicketManager.dir\build.make CMakeFiles/TicketManager.dir/Defect.cpp.i
+.PHONY : Defect.cpp.i
+
+Defect.s: Defect.cpp.s
+
+.PHONY : Defect.s
+
+# target to generate assembly for a file
+Defect.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicketManager.dir\build.make CMakeFiles/TicketManager.dir/Defect.cpp.s
+.PHONY : Defect.cpp.s
+
+Task.obj: Task.cpp.obj
+
+.PHONY : Task.obj
+
+# target to build an object file
+Task.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicketManager.dir\build.make CMakeFiles/TicketManager.dir/Task.cpp.obj
+.PHONY : Task.cpp.obj
+
+Task.i: Task.cpp.i
+
+.PHONY : Task.i
+
+# target to preprocess a source file
+Task.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicketManager.dir\build.make CMakeFiles/TicketManager.dir/Task.cpp.i
+.PHONY : Task.cpp.i
+
+Task.s: Task.cpp.s
+
+.PHONY : Task.s
+
+# target to generate assembly for a file
+Task.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicketManager.dir\build.make CMakeFiles/TicketManager.dir/Task.cpp.s
+.PHONY : Task.cpp.s
+
+Test.obj: Test.cpp.obj
+
+.PHONY : Test.obj
+
+# target to build an object file
+Test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicketManager.dir\build.make CMakeFiles/TicketManager.dir/Test.cpp.obj
+.PHONY : Test.cpp.obj
+
+Test.i: Test.cpp.i
+
+.PHONY : Test.i
+
+# target to preprocess a source file
+Test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicketManager.dir\build.make CMakeFiles/TicketManager.dir/Test.cpp.i
+.PHONY : Test.cpp.i
+
+Test.s: Test.cpp.s
+
+.PHONY : Test.s
+
+# target to generate assembly for a file
+Test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicketManager.dir\build.make CMakeFiles/TicketManager.dir/Test.cpp.s
+.PHONY : Test.cpp.s
+
+Ticket.obj: Ticket.cpp.obj
+
+.PHONY : Ticket.obj
+
+# target to build an object file
+Ticket.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicketManager.dir\build.make CMakeFiles/TicketManager.dir/Ticket.cpp.obj
+.PHONY : Ticket.cpp.obj
+
+Ticket.i: Ticket.cpp.i
+
+.PHONY : Ticket.i
+
+# target to preprocess a source file
+Ticket.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicketManager.dir\build.make CMakeFiles/TicketManager.dir/Ticket.cpp.i
+.PHONY : Ticket.cpp.i
+
+Ticket.s: Ticket.cpp.s
+
+.PHONY : Ticket.s
+
+# target to generate assembly for a file
+Ticket.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicketManager.dir\build.make CMakeFiles/TicketManager.dir/Ticket.cpp.s
+.PHONY : Ticket.cpp.s
+
+TicketBuilder.obj: TicketBuilder.cpp.obj
+
+.PHONY : TicketBuilder.obj
+
+# target to build an object file
+TicketBuilder.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicketManager.dir\build.make CMakeFiles/TicketManager.dir/TicketBuilder.cpp.obj
+.PHONY : TicketBuilder.cpp.obj
+
+TicketBuilder.i: TicketBuilder.cpp.i
+
+.PHONY : TicketBuilder.i
+
+# target to preprocess a source file
+TicketBuilder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicketManager.dir\build.make CMakeFiles/TicketManager.dir/TicketBuilder.cpp.i
+.PHONY : TicketBuilder.cpp.i
+
+TicketBuilder.s: TicketBuilder.cpp.s
+
+.PHONY : TicketBuilder.s
+
+# target to generate assembly for a file
+TicketBuilder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicketManager.dir\build.make CMakeFiles/TicketManager.dir/TicketBuilder.cpp.s
+.PHONY : TicketBuilder.cpp.s
+
+UserStory.obj: UserStory.cpp.obj
+
+.PHONY : UserStory.obj
+
+# target to build an object file
+UserStory.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicketManager.dir\build.make CMakeFiles/TicketManager.dir/UserStory.cpp.obj
+.PHONY : UserStory.cpp.obj
+
+UserStory.i: UserStory.cpp.i
+
+.PHONY : UserStory.i
+
+# target to preprocess a source file
+UserStory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicketManager.dir\build.make CMakeFiles/TicketManager.dir/UserStory.cpp.i
+.PHONY : UserStory.cpp.i
+
+UserStory.s: UserStory.cpp.s
+
+.PHONY : UserStory.s
+
+# target to generate assembly for a file
+UserStory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TicketManager.dir\build.make CMakeFiles/TicketManager.dir/UserStory.cpp.s
+.PHONY : UserStory.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -178,6 +340,24 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... TicketManager
+	@echo ... Defect.obj
+	@echo ... Defect.i
+	@echo ... Defect.s
+	@echo ... Task.obj
+	@echo ... Task.i
+	@echo ... Task.s
+	@echo ... Test.obj
+	@echo ... Test.i
+	@echo ... Test.s
+	@echo ... Ticket.obj
+	@echo ... Ticket.i
+	@echo ... Ticket.s
+	@echo ... TicketBuilder.obj
+	@echo ... TicketBuilder.i
+	@echo ... TicketBuilder.s
+	@echo ... UserStory.obj
+	@echo ... UserStory.i
+	@echo ... UserStory.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
