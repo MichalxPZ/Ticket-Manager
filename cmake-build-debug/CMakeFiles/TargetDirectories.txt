@@ -1,3 +1,3 @@
-C:/Users/Michal/Desktop/C adventures/TicketManager/cmake-build-debug/CMakeFiles/TicketManager.dir
-C:/Users/Michal/Desktop/C adventures/TicketManager/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Michal/Desktop/C adventures/TicketManager/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mochal/Ticket-Manager/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mochal/Ticket-Manager/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mochal/Ticket-Manager/cmake-build-debug/CMakeFiles/TicketManager.dir
