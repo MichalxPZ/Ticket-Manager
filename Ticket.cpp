@@ -1,7 +1,3 @@
-//
-// Created by Michal on 19.11.2021.
-//
-
 #include "Ticket.h"
 
 string Ticket::getTopic() {
@@ -16,18 +12,14 @@ string Ticket::getAssignee() {
     return this->assignee;
 }
 
-Type Ticket::getType() {
-    return this->type;
-}
-
-Ticket Ticket::setTopic(string topic) {
-    this->topic = topic;
-}
-
-Ticket Ticket::setDescription(string description) {
+void Ticket::setDescription(string description) {
     this->description = description;
 }
 
 void Ticket::setAssignee(string assginee) {
     this->assignee = assginee;
+}
+
+void Ticket::setTopic(string topic) {
+    this->topic = topic;
 }

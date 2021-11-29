@@ -15,18 +15,20 @@ private:
     string topic;
     string description;
     string assignee;
-    Type type;
 protected:
+    Type type;
+public:
     string getTopic();
     string getDescription();
     string getAssignee();
-    Type getType();
 
-    virtual Ticket setDescription(string description);
+    void setDescription(string description);
 
-    virtual void setAssignee(string assginee);
+    void setAssignee(string assginee);
 
-    virtual Ticket setTopic(string topic);
+    void setTopic(string topic);
+    
+    virtual Type getType() = 0;
 };
 
 

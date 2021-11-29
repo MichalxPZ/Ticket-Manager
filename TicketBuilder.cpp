@@ -3,26 +3,22 @@
 //
 
 #include "TicketBuilder.h"
+#include "UserStory.h"
+#include "Task.h"
+#include "Defect.h"
+#include "Test.h"
+#include "DefaultTicket.h"
 
-void TicketBuilder::reset() {
-    this->ticket = new Ticket;
-}
-
-Ticket TicketBuilder::setTopic(string topic) {
-    this->ticket.setTopic(topic);
-    return this->ticket;
-}
-
-Ticket TicketBuilder::setDescription(string description) {
-    this->ticket.description = description;
-    return this->ticket;
-}
-
-Ticket TicketBuilder::setAssignee(string assginee) {
-
-    return this->ticket;
-}
-
-Ticket TicketBuilder::setTyoe(Type) {
-    return this->ticket;
+Ticket TicketBuilder::build(Type type) {
+    if (type == Type::UserStory) {
+       return new UserStory();
+    } else if (type == Type::Task) {
+       return new Task();
+    }else if (type == Type::Defect) {
+        return new Defect();
+    }else if (type == Type::Test) {
+        return new Test();
+    } else {
+        return new DefaultTicket();
+    }
 }

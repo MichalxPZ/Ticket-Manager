@@ -9,14 +9,14 @@
 #include "Ticket.h"
 
 class TicketBuilder: public Ticket {
-    Ticket ticket;
+private:
+    string topic;
+    string description;
+    string assignee;
+
 public:
-    TicketBuilder()= default;
-    void reset();
-    Ticket setTopic(string topic);
-    Ticket setDescription(string description);
-    Ticket setAssignee(string assginee);
-    Ticket setTyoe(Type);
+    TicketBuilder() = default;
+    Ticket build(Type type);
 };
 
 
