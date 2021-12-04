@@ -24,6 +24,7 @@ TicketBuilder &TicketBuilder::setDescription(string description) {
     return *this;
 }
 
-TicketBuilder::TicketBuilder(int id) {
-    ticket->ID = id;
+TicketBuilder::TicketBuilder(Ticket* ticket) {
+    this->ticket = ticket;
+    ticket->ID = rand() % 10000000;
 }

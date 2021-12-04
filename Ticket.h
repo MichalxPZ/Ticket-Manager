@@ -13,17 +13,15 @@ using namespace std;
 class TicketBuilder;
 
 class Ticket {
-protected:
+public:
     int ID;
     string topic;
     string description;
     string assignee;
     string deadLineDate;
-public:
-    virtual Type getType() = 0;
-    friend class TicketBuilder;
-    friend ostream& operator<<(ostream& os, const Ticket* ticket);
-    virtual TicketBuilder builder(int id) = 0;
+    virtual string getType() = 0;
+    friend ostream& operator<<(ostream& os, Ticket* ticket);
+    static TicketBuilder& builder(Ticket* ticket);
 };
 
 

@@ -14,7 +14,7 @@ class TicketBuilder{
 private:
     Ticket *ticket;
 public:
-    TicketBuilder(int id);
+    TicketBuilder(Ticket* ticket);
     TicketBuilder& setTopic(string topic);
     TicketBuilder& setDescription(string description);
     TicketBuilder& setAssignee(string assignee);

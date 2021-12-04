@@ -3,3 +3,7 @@
 //
 
 #include "DefaultTicket.h"
+
+string DefaultTicket::getType() {
+    return "Default type";
+}

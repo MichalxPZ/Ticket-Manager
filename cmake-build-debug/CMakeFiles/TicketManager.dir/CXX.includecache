@@ -6,7 +6,21 @@
 
 #IncludeRegexTransform: 
 
+/home/mochal/Ticket-Manager/DefaultTicket.h
+Ticket.h
+/home/mochal/Ticket-Manager/Ticket.h
+
 /home/mochal/Ticket-Manager/Defect.h
+Ticket.h
+/home/mochal/Ticket-Manager/Ticket.h
+
+/home/mochal/Ticket-Manager/EmptyListException.h
+
+/home/mochal/Ticket-Manager/Task.h
+Ticket.h
+/home/mochal/Ticket-Manager/Ticket.h
+
+/home/mochal/Ticket-Manager/Test.h
 Ticket.h
 /home/mochal/Ticket-Manager/Ticket.h
 
@@ -22,7 +36,19 @@ Ticket.h
 Defect.h
 /home/mochal/Ticket-Manager/Defect.h
 
+/home/mochal/Ticket-Manager/TicketManager.h
+list
+/home/mochal/Ticket-Manager/list
+Ticket.h
+/home/mochal/Ticket-Manager/Ticket.h
+
 /home/mochal/Ticket-Manager/TicketTypes.h
+
+/home/mochal/Ticket-Manager/UnmatchedIdException.h
+
+/home/mochal/Ticket-Manager/UserStory.h
+Ticket.h
+/home/mochal/Ticket-Manager/Ticket.h
 
 /home/mochal/Ticket-Manager/main.cpp
 iostream
@@ -31,4 +57,18 @@ TicketBuilder.h
 /home/mochal/Ticket-Manager/TicketBuilder.h
 Defect.h
 /home/mochal/Ticket-Manager/Defect.h
+TicketManager.h
+/home/mochal/Ticket-Manager/TicketManager.h
+UnmatchedIdException.h
+/home/mochal/Ticket-Manager/UnmatchedIdException.h
+EmptyListException.h
+/home/mochal/Ticket-Manager/EmptyListException.h
+UserStory.h
+/home/mochal/Ticket-Manager/UserStory.h
+Task.h
+/home/mochal/Ticket-Manager/Task.h
+DefaultTicket.h
+/home/mochal/Ticket-Manager/DefaultTicket.h
+Test.h
+/home/mochal/Ticket-Manager/Test.h
 

@@ -21,7 +21,9 @@ Application was created as a project for Object Programming course at Poznan Uni
 Ideas:
 create some higher abstraction class of ticket and it's types (user story, defect, test, task)  
 every ticket will have a lot of dependencies such as topic, description, creation date, assignee etc.
-As tickets may differ from each other and not every field has to be filled I think builder is the best pattern to implement here. The app will be easy to mantain in case of any new fields like another description or status.  
+As tickets may differ from each other and not every field has to be filled I think builder is the best pattern to implement here. The app will be easy to mantain in case of any new fields like another description or status.   
+29.11 refactor of classes  
+4.12 implemented classes with builder, facing some issues with memory, trying to figure out why I'm losing data injected into Ticket instances.  
 
 #### Plan
-2.12 - finish app development
+5.12 - finish app development

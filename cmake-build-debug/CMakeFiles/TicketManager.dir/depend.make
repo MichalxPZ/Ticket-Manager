@@ -10,8 +10,10 @@ CMakeFiles/TicketManager.dir/Defect.cpp.o: \
  ../Defect.cpp \
  ../Defect.h \
  ../Ticket.h \
- ../TicketBuilder.h \
  ../TicketTypes.h
+CMakeFiles/TicketManager.dir/EmptyListException.cpp.o: \
+ ../EmptyListException.cpp \
+ ../EmptyListException.h
 CMakeFiles/TicketManager.dir/Task.cpp.o: \
  ../Task.cpp \
  ../Task.h \
@@ -34,14 +36,31 @@ CMakeFiles/TicketManager.dir/TicketBuilder.cpp.o: \
  ../TicketBuilder.cpp \
  ../TicketBuilder.h \
  ../TicketTypes.h
+CMakeFiles/TicketManager.dir/TicketManager.cpp.o: \
+ ../EmptyListException.h \
+ ../Ticket.h \
+ ../TicketManager.cpp \
+ ../TicketManager.h \
+ ../TicketTypes.h \
+ ../UnmatchedIdException.h
+CMakeFiles/TicketManager.dir/UnmatchedIdException.cpp.o: \
+ ../UnmatchedIdException.cpp \
+ ../UnmatchedIdException.h
 CMakeFiles/TicketManager.dir/UserStory.cpp.o: \
  ../Ticket.h \
  ../TicketTypes.h \
  ../UserStory.cpp \
  ../UserStory.h
 CMakeFiles/TicketManager.dir/main.cpp.o: \
+ ../DefaultTicket.h \
  ../Defect.h \
+ ../EmptyListException.h \
+ ../Task.h \
+ ../Test.h \
  ../Ticket.h \
  ../TicketBuilder.h \
+ ../TicketManager.h \
  ../TicketTypes.h \
+ ../UnmatchedIdException.h \
+ ../UserStory.h \
  ../main.cpp

@@ -9,7 +9,9 @@
 #include "Ticket.h"
 
 class Test : public Ticket {
-
+public:
+    Test() = default;
+    string getType() override;
 };
 
 

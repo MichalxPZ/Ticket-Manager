@@ -3,3 +3,7 @@
 //
 
 #include "Task.h"
+
+string Task::getType() {
+    return "Task";
+}

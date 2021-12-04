@@ -9,6 +9,9 @@
 #include "Ticket.h"
 
 class UserStory : public Ticket {
+public:
+    UserStory() = default;
+    string getType() override;
 };
 
 

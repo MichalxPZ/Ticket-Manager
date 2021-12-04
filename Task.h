@@ -9,7 +9,9 @@
 #include "Ticket.h"
 
 class Task : public Ticket {
-
+public:
+    Task() = default;
+    string getType() override;
 };
 
 

@@ -3,3 +3,7 @@
 //
 
 #include "UserStory.h"
+
+string UserStory::getType() {
+    return "User Story";
+}

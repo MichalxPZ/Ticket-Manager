@@ -94,6 +94,12 @@
 		<Unit filename="/home/mochal/Ticket-Manager/Defect.h">
 			<Option target="TicketManager"/>
 		</Unit>
+		<Unit filename="/home/mochal/Ticket-Manager/EmptyListException.cpp">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="/home/mochal/Ticket-Manager/EmptyListException.h">
+			<Option target="TicketManager"/>
+		</Unit>
 		<Unit filename="/home/mochal/Ticket-Manager/Task.cpp">
 			<Option target="TicketManager"/>
 		</Unit>
@@ -116,6 +122,18 @@
 			<Option target="TicketManager"/>
 		</Unit>
 		<Unit filename="/home/mochal/Ticket-Manager/TicketBuilder.h">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="/home/mochal/Ticket-Manager/TicketManager.cpp">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="/home/mochal/Ticket-Manager/TicketManager.h">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="/home/mochal/Ticket-Manager/UnmatchedIdException.cpp">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="/home/mochal/Ticket-Manager/UnmatchedIdException.h">
 			<Option target="TicketManager"/>
 		</Unit>
 		<Unit filename="/home/mochal/Ticket-Manager/UserStory.cpp">

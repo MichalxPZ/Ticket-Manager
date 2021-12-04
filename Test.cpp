@@ -3,3 +3,7 @@
 //
 
 #include "Test.h"
+
+string Test::getType() {
+    return "Test";
+}

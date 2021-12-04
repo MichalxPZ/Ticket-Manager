@@ -9,6 +9,9 @@
 #include "Ticket.h"
 
 class DefaultTicket : public Ticket {
+public:
+    DefaultTicket() = default;
+    string getType() override;
 
 };
 

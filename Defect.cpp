@@ -4,12 +4,7 @@
 
 #include <iostream>
 #include "Defect.h"
-#include "TicketBuilder.h"
 
-Type Defect::getType() {
-    return Type::Defect;
-}
-
-TicketBuilder Defect::builder(int id) {
-    return TicketBuilder(id);
+string Defect::getType() {
+    return "Defect";
 }
