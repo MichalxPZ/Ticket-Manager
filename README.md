@@ -22,8 +22,10 @@ Ideas:
 create some higher abstraction class of ticket and it's types (user story, defect, test, task)  
 every ticket will have a lot of dependencies such as topic, description, creation date, assignee etc.
 As tickets may differ from each other and not every field has to be filled I think builder is the best pattern to implement here. The app will be easy to mantain in case of any new fields like another description or status.   
-29.11 refactor of classes  
+29.11 refactor of classes 
+2.12 consulted with lecturer how to fix the issue of not being able to create Ticket type object in the builder since it's an abstract class; The idea is to use pointers here.  
 4.12 implemented classes with builder, facing some issues with memory, trying to figure out why I'm losing data injected into Ticket instances.  
+4.12 resolved problems with memory, implemented working builder pattern and user interface. However there are some known issues of the UI that have to be fixed tomorrow.  
 
 #### Plan
 5.12 - finish app development
