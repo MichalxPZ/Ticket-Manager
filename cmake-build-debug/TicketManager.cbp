@@ -82,6 +82,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/mochal/Ticket-Manager/App.cpp">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="/home/mochal/Ticket-Manager/App.h">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="/home/mochal/Ticket-Manager/Date.cpp">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="/home/mochal/Ticket-Manager/Date.h">
+			<Option target="TicketManager"/>
+		</Unit>
 		<Unit filename="/home/mochal/Ticket-Manager/DefaultTicket.cpp">
 			<Option target="TicketManager"/>
 		</Unit>
@@ -128,6 +140,12 @@
 			<Option target="TicketManager"/>
 		</Unit>
 		<Unit filename="/home/mochal/Ticket-Manager/TicketManager.h">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="/home/mochal/Ticket-Manager/UnhandledArgumentException.cpp">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="/home/mochal/Ticket-Manager/UnhandledArgumentException.h">
 			<Option target="TicketManager"/>
 		</Unit>
 		<Unit filename="/home/mochal/Ticket-Manager/UnmatchedIdException.cpp">

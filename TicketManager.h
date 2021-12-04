@@ -16,7 +16,9 @@ private:
 public:
     TicketManager() = default;
     void addTicket(Ticket* ticket);
+    Ticket* getTicket(int id);
     void removeTicket(int id);
+    void showTicket(int id);
     void showAll();
     void showAll(string type);
 };

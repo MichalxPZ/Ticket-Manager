@@ -3,13 +3,14 @@
 //
 #include <iostream>
 #include "TicketBuilder.h"
+#include "Date.h"
 
 TicketBuilder &TicketBuilder::setTopic(string topic) {
     this->ticket->topic = topic;
     return *this;
 }
 
-TicketBuilder &TicketBuilder::setDeadLine(string deadLine) {
+TicketBuilder &TicketBuilder::setDeadLine(Date* deadLine) {
     this->ticket->deadLineDate = deadLine;
     return *this;
 }
@@ -26,5 +27,5 @@ TicketBuilder &TicketBuilder::setDescription(string description) {
 
 TicketBuilder::TicketBuilder(Ticket* ticket) {
     this->ticket = ticket;
-    ticket->ID = rand() % 10000000;
+    ticket->setId(rand() % 10000000);
 }

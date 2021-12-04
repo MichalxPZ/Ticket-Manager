@@ -129,6 +129,54 @@ TicketManager/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/build
 .PHONY : TicketManager/fast
 
+App.o: App.cpp.o
+.PHONY : App.o
+
+# target to build an object file
+App.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/App.cpp.o
+.PHONY : App.cpp.o
+
+App.i: App.cpp.i
+.PHONY : App.i
+
+# target to preprocess a source file
+App.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/App.cpp.i
+.PHONY : App.cpp.i
+
+App.s: App.cpp.s
+.PHONY : App.s
+
+# target to generate assembly for a file
+App.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/App.cpp.s
+.PHONY : App.cpp.s
+
+Date.o: Date.cpp.o
+.PHONY : Date.o
+
+# target to build an object file
+Date.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/Date.cpp.o
+.PHONY : Date.cpp.o
+
+Date.i: Date.cpp.i
+.PHONY : Date.i
+
+# target to preprocess a source file
+Date.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/Date.cpp.i
+.PHONY : Date.cpp.i
+
+Date.s: Date.cpp.s
+.PHONY : Date.s
+
+# target to generate assembly for a file
+Date.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/Date.cpp.s
+.PHONY : Date.cpp.s
+
 DefaultTicket.o: DefaultTicket.cpp.o
 .PHONY : DefaultTicket.o
 
@@ -321,6 +369,30 @@ TicketManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/TicketManager.cpp.s
 .PHONY : TicketManager.cpp.s
 
+UnhandledArgumentException.o: UnhandledArgumentException.cpp.o
+.PHONY : UnhandledArgumentException.o
+
+# target to build an object file
+UnhandledArgumentException.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/UnhandledArgumentException.cpp.o
+.PHONY : UnhandledArgumentException.cpp.o
+
+UnhandledArgumentException.i: UnhandledArgumentException.cpp.i
+.PHONY : UnhandledArgumentException.i
+
+# target to preprocess a source file
+UnhandledArgumentException.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/UnhandledArgumentException.cpp.i
+.PHONY : UnhandledArgumentException.cpp.i
+
+UnhandledArgumentException.s: UnhandledArgumentException.cpp.s
+.PHONY : UnhandledArgumentException.s
+
+# target to generate assembly for a file
+UnhandledArgumentException.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/UnhandledArgumentException.cpp.s
+.PHONY : UnhandledArgumentException.cpp.s
+
 UnmatchedIdException.o: UnmatchedIdException.cpp.o
 .PHONY : UnmatchedIdException.o
 
@@ -402,6 +474,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... TicketManager"
+	@echo "... App.o"
+	@echo "... App.i"
+	@echo "... App.s"
+	@echo "... Date.o"
+	@echo "... Date.i"
+	@echo "... Date.s"
 	@echo "... DefaultTicket.o"
 	@echo "... DefaultTicket.i"
 	@echo "... DefaultTicket.s"
@@ -426,6 +504,9 @@ help:
 	@echo "... TicketManager.o"
 	@echo "... TicketManager.i"
 	@echo "... TicketManager.s"
+	@echo "... UnhandledArgumentException.o"
+	@echo "... UnhandledArgumentException.i"
+	@echo "... UnhandledArgumentException.s"
 	@echo "... UnmatchedIdException.o"
 	@echo "... UnmatchedIdException.i"
 	@echo "... UnmatchedIdException.s"

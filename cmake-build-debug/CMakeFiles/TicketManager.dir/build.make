@@ -209,6 +209,45 @@ CMakeFiles/TicketManager.dir/EmptyListException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TicketManager.dir/EmptyListException.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mochal/Ticket-Manager/EmptyListException.cpp -o CMakeFiles/TicketManager.dir/EmptyListException.cpp.s
 
+CMakeFiles/TicketManager.dir/Date.cpp.o: CMakeFiles/TicketManager.dir/flags.make
+CMakeFiles/TicketManager.dir/Date.cpp.o: ../Date.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mochal/Ticket-Manager/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/TicketManager.dir/Date.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TicketManager.dir/Date.cpp.o -c /home/mochal/Ticket-Manager/Date.cpp
+
+CMakeFiles/TicketManager.dir/Date.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TicketManager.dir/Date.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mochal/Ticket-Manager/Date.cpp > CMakeFiles/TicketManager.dir/Date.cpp.i
+
+CMakeFiles/TicketManager.dir/Date.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TicketManager.dir/Date.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mochal/Ticket-Manager/Date.cpp -o CMakeFiles/TicketManager.dir/Date.cpp.s
+
+CMakeFiles/TicketManager.dir/App.cpp.o: CMakeFiles/TicketManager.dir/flags.make
+CMakeFiles/TicketManager.dir/App.cpp.o: ../App.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mochal/Ticket-Manager/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/TicketManager.dir/App.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TicketManager.dir/App.cpp.o -c /home/mochal/Ticket-Manager/App.cpp
+
+CMakeFiles/TicketManager.dir/App.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TicketManager.dir/App.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mochal/Ticket-Manager/App.cpp > CMakeFiles/TicketManager.dir/App.cpp.i
+
+CMakeFiles/TicketManager.dir/App.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TicketManager.dir/App.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mochal/Ticket-Manager/App.cpp -o CMakeFiles/TicketManager.dir/App.cpp.s
+
+CMakeFiles/TicketManager.dir/UnhandledArgumentException.cpp.o: CMakeFiles/TicketManager.dir/flags.make
+CMakeFiles/TicketManager.dir/UnhandledArgumentException.cpp.o: ../UnhandledArgumentException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mochal/Ticket-Manager/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/TicketManager.dir/UnhandledArgumentException.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TicketManager.dir/UnhandledArgumentException.cpp.o -c /home/mochal/Ticket-Manager/UnhandledArgumentException.cpp
+
+CMakeFiles/TicketManager.dir/UnhandledArgumentException.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TicketManager.dir/UnhandledArgumentException.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mochal/Ticket-Manager/UnhandledArgumentException.cpp > CMakeFiles/TicketManager.dir/UnhandledArgumentException.cpp.i
+
+CMakeFiles/TicketManager.dir/UnhandledArgumentException.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TicketManager.dir/UnhandledArgumentException.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mochal/Ticket-Manager/UnhandledArgumentException.cpp -o CMakeFiles/TicketManager.dir/UnhandledArgumentException.cpp.s
+
 # Object files for target TicketManager
 TicketManager_OBJECTS = \
 "CMakeFiles/TicketManager.dir/main.cpp.o" \
@@ -221,7 +260,10 @@ TicketManager_OBJECTS = \
 "CMakeFiles/TicketManager.dir/DefaultTicket.cpp.o" \
 "CMakeFiles/TicketManager.dir/TicketManager.cpp.o" \
 "CMakeFiles/TicketManager.dir/UnmatchedIdException.cpp.o" \
-"CMakeFiles/TicketManager.dir/EmptyListException.cpp.o"
+"CMakeFiles/TicketManager.dir/EmptyListException.cpp.o" \
+"CMakeFiles/TicketManager.dir/Date.cpp.o" \
+"CMakeFiles/TicketManager.dir/App.cpp.o" \
+"CMakeFiles/TicketManager.dir/UnhandledArgumentException.cpp.o"
 
 # External object files for target TicketManager
 TicketManager_EXTERNAL_OBJECTS =
@@ -237,9 +279,12 @@ TicketManager: CMakeFiles/TicketManager.dir/DefaultTicket.cpp.o
 TicketManager: CMakeFiles/TicketManager.dir/TicketManager.cpp.o
 TicketManager: CMakeFiles/TicketManager.dir/UnmatchedIdException.cpp.o
 TicketManager: CMakeFiles/TicketManager.dir/EmptyListException.cpp.o
+TicketManager: CMakeFiles/TicketManager.dir/Date.cpp.o
+TicketManager: CMakeFiles/TicketManager.dir/App.cpp.o
+TicketManager: CMakeFiles/TicketManager.dir/UnhandledArgumentException.cpp.o
 TicketManager: CMakeFiles/TicketManager.dir/build.make
 TicketManager: CMakeFiles/TicketManager.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mochal/Ticket-Manager/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable TicketManager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mochal/Ticket-Manager/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable TicketManager"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TicketManager.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

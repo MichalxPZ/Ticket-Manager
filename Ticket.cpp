@@ -16,3 +16,11 @@ TicketBuilder& Ticket::builder(Ticket* ticket) {
     TicketBuilder* builder = new TicketBuilder(ticket);
     return *builder;
 }
+
+void Ticket::setId(int id) {
+    this->ID = id;
+}
+
+int Ticket::getId() {
+    return this->ID;
+}

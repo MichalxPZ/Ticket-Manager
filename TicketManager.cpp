@@ -13,7 +13,7 @@ void TicketManager::addTicket(Ticket *ticket) {
 
 void TicketManager::removeTicket(int id) {
     for (auto ticket : ticketList) {
-        if (ticket->ID == id) {
+        if (ticket->getId() == id) {
             ticketList.remove(ticket);
             return;
         }
@@ -36,4 +36,26 @@ void TicketManager::showAll(string type) {
             cout << ticket << endl;
         }
     } else throw EmptyListException();
+}
+
+void TicketManager::showTicket(int id) {
+    if (!ticketList.empty()) {
+        for (auto ticket: ticketList) {
+            if (ticket->getId() == id) {
+                cout << ticket;
+            }
+        }
+    } else throw EmptyListException();
+}
+
+Ticket *TicketManager::getTicket(int id) {
+    if (!ticketList.empty()) {
+        for (auto ticket: ticketList) {
+            if (ticket->getId() == id) {
+                return ticket;
+            }
+        }
+    } else throw EmptyListException();
+    throw UnmatchedIdException();
+    return nullptr;
 }

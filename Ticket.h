@@ -5,20 +5,25 @@
 #ifndef TICKETMANAGER_TICKET_H
 #define TICKETMANAGER_TICKET_H
 
-#include "TicketTypes.h"
 #include "string"
+#include "Date.h"
 
 using namespace std;
 
 class TicketBuilder;
 
 class Ticket {
-public:
+private:
     int ID;
+public:
     string topic;
     string description;
+    Date *deadLineDate;
     string assignee;
-    string deadLineDate;
+
+    void setId(int id);
+    int getId();
+
     virtual string getType() = 0;
     friend ostream& operator<<(ostream& os, Ticket* ticket);
     static TicketBuilder& builder(Ticket* ticket);
