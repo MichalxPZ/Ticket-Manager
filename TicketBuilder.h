@@ -5,19 +5,19 @@
 #ifndef TICKETMANAGER_TICKETBUILDER_H
 #define TICKETMANAGER_TICKETBUILDER_H
 
-
 #include "Ticket.h"
+#include "Defect.h"
 
-class TicketBuilder: public Ticket {
+using namespace std;
+
+class TicketBuilder{
 private:
-    string topic;
-    string description;
-    string assignee;
-
+    Ticket *ticket;
 public:
-    TicketBuilder() = default;
-    Ticket build(Type type);
+    TicketBuilder(int id);
+    TicketBuilder& setTopic(string topic);
+    TicketBuilder& setDescription(string description);
+    TicketBuilder& setAssignee(string assignee);
+    TicketBuilder& setDeadLine(string deadLine);
 };
-
-
 #endif //TICKETMANAGER_TICKETBUILDER_H

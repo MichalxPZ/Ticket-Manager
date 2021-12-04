@@ -1,25 +1,12 @@
+#include <string>
+#include "iostream"
 #include "Ticket.h"
+#include "TicketBuilder.h"
 
-string Ticket::getTopic() {
-    return this->topic;
-}
+ostream &operator<<(ostream &os, const Ticket* ticket) {
+    return os << "Topic: " << ticket->ID << " | " <<ticket->topic << endl
+                << "Description: " << ticket->description << endl
+                << "Asignee: " << ticket->assignee << endl
+                << "Deadline date: " << ticket->deadLineDate << endl;
 
-string Ticket::getDescription() {
-    return this->description;
-}
-
-string Ticket::getAssignee() {
-    return this->assignee;
-}
-
-void Ticket::setDescription(string description) {
-    this->description = description;
-}
-
-void Ticket::setAssignee(string assginee) {
-    this->assignee = assginee;
-}
-
-void Ticket::setTopic(string topic) {
-    this->topic = topic;
 }

@@ -2,5 +2,6 @@ enum class Type {
     UserStory,
     Defect,
     Test,
-    Task
+    Task,
+    Default
 };

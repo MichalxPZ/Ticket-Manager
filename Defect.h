@@ -9,7 +9,10 @@
 #include "Ticket.h"
 
 class Defect : public Ticket {
-
+public:
+    Defect() = default;
+    Type getType() override;
+    TicketBuilder builder(int id) override;
 };
 
 

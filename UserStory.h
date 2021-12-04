@@ -9,8 +9,6 @@
 #include "Ticket.h"
 
 class UserStory : public Ticket {
-public:
-    Type getType();
 };
 
 

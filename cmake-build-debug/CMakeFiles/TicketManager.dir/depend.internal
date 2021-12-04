@@ -10,6 +10,7 @@ CMakeFiles/TicketManager.dir/Defect.cpp.o
  /home/mochal/Ticket-Manager/Defect.cpp
  /home/mochal/Ticket-Manager/Defect.h
  /home/mochal/Ticket-Manager/Ticket.h
+ /home/mochal/Ticket-Manager/TicketBuilder.h
  /home/mochal/Ticket-Manager/TicketTypes.h
 CMakeFiles/TicketManager.dir/Task.cpp.o
  /home/mochal/Ticket-Manager/Task.cpp
@@ -22,23 +23,25 @@ CMakeFiles/TicketManager.dir/Test.cpp.o
  /home/mochal/Ticket-Manager/Ticket.h
  /home/mochal/Ticket-Manager/TicketTypes.h
 CMakeFiles/TicketManager.dir/Ticket.cpp.o
+ /home/mochal/Ticket-Manager/Defect.h
  /home/mochal/Ticket-Manager/Ticket.cpp
  /home/mochal/Ticket-Manager/Ticket.h
+ /home/mochal/Ticket-Manager/TicketBuilder.h
  /home/mochal/Ticket-Manager/TicketTypes.h
 CMakeFiles/TicketManager.dir/TicketBuilder.cpp.o
- /home/mochal/Ticket-Manager/DefaultTicket.h
  /home/mochal/Ticket-Manager/Defect.h
- /home/mochal/Ticket-Manager/Task.h
- /home/mochal/Ticket-Manager/Test.h
  /home/mochal/Ticket-Manager/Ticket.h
  /home/mochal/Ticket-Manager/TicketBuilder.cpp
  /home/mochal/Ticket-Manager/TicketBuilder.h
  /home/mochal/Ticket-Manager/TicketTypes.h
- /home/mochal/Ticket-Manager/UserStory.h
 CMakeFiles/TicketManager.dir/UserStory.cpp.o
  /home/mochal/Ticket-Manager/Ticket.h
  /home/mochal/Ticket-Manager/TicketTypes.h
  /home/mochal/Ticket-Manager/UserStory.cpp
  /home/mochal/Ticket-Manager/UserStory.h
 CMakeFiles/TicketManager.dir/main.cpp.o
+ /home/mochal/Ticket-Manager/Defect.h
+ /home/mochal/Ticket-Manager/Ticket.h
+ /home/mochal/Ticket-Manager/TicketBuilder.h
+ /home/mochal/Ticket-Manager/TicketTypes.h
  /home/mochal/Ticket-Manager/main.cpp

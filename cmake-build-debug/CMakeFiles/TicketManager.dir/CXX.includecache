@@ -6,73 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/home/mochal/Ticket-Manager/DefaultTicket.cpp
-DefaultTicket.h
-/home/mochal/Ticket-Manager/DefaultTicket.h
-
-/home/mochal/Ticket-Manager/DefaultTicket.h
-Ticket.h
-/home/mochal/Ticket-Manager/Ticket.h
-
-/home/mochal/Ticket-Manager/Defect.cpp
-Defect.h
-/home/mochal/Ticket-Manager/Defect.h
-
 /home/mochal/Ticket-Manager/Defect.h
 Ticket.h
 /home/mochal/Ticket-Manager/Ticket.h
 
-/home/mochal/Ticket-Manager/Task.cpp
-Task.h
-/home/mochal/Ticket-Manager/Task.h
-
-/home/mochal/Ticket-Manager/Task.h
-Ticket.h
 /home/mochal/Ticket-Manager/Ticket.h
-
-/home/mochal/Ticket-Manager/Test.cpp
-Test.h
-/home/mochal/Ticket-Manager/Test.h
-
-/home/mochal/Ticket-Manager/Test.h
-Ticket.h
-/home/mochal/Ticket-Manager/Ticket.h
-
-/home/mochal/Ticket-Manager/Ticket.cpp
-Ticket.h
-/home/mochal/Ticket-Manager/Ticket.h
-
-/home/mochal/Ticket-Manager/Ticket.h
-string
--
 TicketTypes.h
 /home/mochal/Ticket-Manager/TicketTypes.h
-
-/home/mochal/Ticket-Manager/TicketBuilder.cpp
-TicketBuilder.h
-/home/mochal/Ticket-Manager/TicketBuilder.h
-UserStory.h
-/home/mochal/Ticket-Manager/UserStory.h
-Task.h
-/home/mochal/Ticket-Manager/Task.h
-Defect.h
-/home/mochal/Ticket-Manager/Defect.h
-Test.h
-/home/mochal/Ticket-Manager/Test.h
-DefaultTicket.h
-/home/mochal/Ticket-Manager/DefaultTicket.h
+string
+/home/mochal/Ticket-Manager/string
 
 /home/mochal/Ticket-Manager/TicketBuilder.h
 Ticket.h
 /home/mochal/Ticket-Manager/Ticket.h
+Defect.h
+/home/mochal/Ticket-Manager/Defect.h
 
 /home/mochal/Ticket-Manager/TicketTypes.h
 
-/home/mochal/Ticket-Manager/UserStory.cpp
-UserStory.h
-/home/mochal/Ticket-Manager/UserStory.h
-
-/home/mochal/Ticket-Manager/UserStory.h
-Ticket.h
-/home/mochal/Ticket-Manager/Ticket.h
+/home/mochal/Ticket-Manager/main.cpp
+iostream
+-
+TicketBuilder.h
+/home/mochal/Ticket-Manager/TicketBuilder.h
+Defect.h
+/home/mochal/Ticket-Manager/Defect.h
 

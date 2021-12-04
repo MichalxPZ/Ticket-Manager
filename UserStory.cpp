@@ -3,7 +3,3 @@
 //
 
 #include "UserStory.h"
-
-Type UserStory::getType() {
-    return this->type;
-}
