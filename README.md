@@ -13,6 +13,8 @@ The structure of application is one base abstract class Ticket and classes to re
 This project contains two APIs - one is basic API to manage tickets. And second one is a console user interface built on top of the first one. So user is provided with two ways of using this App.  
 Below there is a UML diagram that represents the structure of my app.
 
+Note: There is a known issue with console interface when providing unhandled type of data. UI may go in a loop when user types incorrect data for date type.
+
 ## Class diagram
 <a name="description"></a>
 ![uml](diagram.jpg)

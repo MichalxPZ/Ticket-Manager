@@ -1,0 +1,3 @@
+/home/mochal/Ticket-Manager/cmake-build-default/CMakeFiles/rebuild_cache.dir
+/home/mochal/Ticket-Manager/cmake-build-default/CMakeFiles/edit_cache.dir
+/home/mochal/Ticket-Manager/cmake-build-default/CMakeFiles/TicketManager.dir
