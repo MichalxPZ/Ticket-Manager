@@ -1,0 +1,14 @@
+//
+// Created by mochal on 04.12.2021.
+//
+
+#ifndef TICKETMANAGER_EMPTYLISTEXCEPTION_H
+#define TICKETMANAGER_EMPTYLISTEXCEPTION_H
+
+
+class EmptyListException {
+
+};
+
+
+#endif //TICKETMANAGER_EMPTYLISTEXCEPTION_H

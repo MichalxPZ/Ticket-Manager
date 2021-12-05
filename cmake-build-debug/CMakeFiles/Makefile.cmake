@@ -7,6 +7,12 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+<<<<<<< HEAD
+  "/home/mochal/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/share/cmake-3.20/Modules/CMakeCInformation.cmake"
+  "/home/mochal/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/share/cmake-3.20/Modules/CMakeCXXInformation.cmake"
+  "/home/mochal/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/share/cmake-3.20/Modules/CMakeCommonLanguageInclude.cmake"
+  "/home/mochal/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/share/cmake-3.20/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
+=======
   "/home/mochal/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/share/cmake-3.20/Modules/CMakeCCompiler.cmake.in"
   "/home/mochal/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/share/cmake-3.20/Modules/CMakeCCompilerABI.c"
   "/home/mochal/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/share/cmake-3.20/Modules/CMakeCInformation.cmake"
@@ -24,10 +30,19 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/mochal/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/share/cmake-3.20/Modules/CMakeDetermineSystem.cmake"
   "/home/mochal/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/share/cmake-3.20/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
   "/home/mochal/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/share/cmake-3.20/Modules/CMakeFindBinUtils.cmake"
+>>>>>>> main
   "/home/mochal/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/share/cmake-3.20/Modules/CMakeFindCodeBlocks.cmake"
   "/home/mochal/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/share/cmake-3.20/Modules/CMakeGenericSystem.cmake"
   "/home/mochal/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/share/cmake-3.20/Modules/CMakeInitializeConfigs.cmake"
   "/home/mochal/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/share/cmake-3.20/Modules/CMakeLanguageInformation.cmake"
+<<<<<<< HEAD
+  "/home/mochal/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/share/cmake-3.20/Modules/CMakeSystemSpecificInformation.cmake"
+  "/home/mochal/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/share/cmake-3.20/Modules/CMakeSystemSpecificInitialize.cmake"
+  "/home/mochal/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/share/cmake-3.20/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+  "/home/mochal/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/share/cmake-3.20/Modules/Compiler/GNU-C.cmake"
+  "/home/mochal/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/share/cmake-3.20/Modules/Compiler/GNU-CXX.cmake"
+  "/home/mochal/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/share/cmake-3.20/Modules/Compiler/GNU.cmake"
+=======
   "/home/mochal/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/share/cmake-3.20/Modules/CMakeParseImplicitIncludeInfo.cmake"
   "/home/mochal/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/share/cmake-3.20/Modules/CMakeParseImplicitLinkInfo.cmake"
   "/home/mochal/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/share/cmake-3.20/Modules/CMakeParseLibraryArchitecture.cmake"
@@ -90,6 +105,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/mochal/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/share/cmake-3.20/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
   "/home/mochal/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/share/cmake-3.20/Modules/Internal/FeatureTesting.cmake"
   "/home/mochal/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/share/cmake-3.20/Modules/Platform/Linux-Determine-CXX.cmake"
+>>>>>>> main
   "/home/mochal/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/share/cmake-3.20/Modules/Platform/Linux-GNU-C.cmake"
   "/home/mochal/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/share/cmake-3.20/Modules/Platform/Linux-GNU-CXX.cmake"
   "/home/mochal/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/share/cmake-3.20/Modules/Platform/Linux-GNU.cmake"
@@ -110,11 +126,14 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+<<<<<<< HEAD
+=======
   "CMakeFiles/3.20.2/CMakeSystem.cmake"
   "CMakeFiles/3.20.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeCXXCompiler.cmake"
+>>>>>>> main
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 

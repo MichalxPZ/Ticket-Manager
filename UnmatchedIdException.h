@@ -1,0 +1,14 @@
+//
+// Created by mochal on 04.12.2021.
+//
+
+#ifndef TICKETMANAGER_UNMATCHEDIDEXCEPTION_H
+#define TICKETMANAGER_UNMATCHEDIDEXCEPTION_H
+
+
+class UnmatchedIdException {
+
+};
+
+
+#endif //TICKETMANAGER_UNMATCHEDIDEXCEPTION_H

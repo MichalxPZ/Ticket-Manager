@@ -82,6 +82,87 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+<<<<<<< HEAD
+		<Unit filename="/home/mochal/Ticket-Manager/App.cpp">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="/home/mochal/Ticket-Manager/App.h">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="/home/mochal/Ticket-Manager/Date.cpp">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="/home/mochal/Ticket-Manager/Date.h">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="/home/mochal/Ticket-Manager/DefaultTicket.cpp">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="/home/mochal/Ticket-Manager/DefaultTicket.h">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="/home/mochal/Ticket-Manager/Defect.cpp">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="/home/mochal/Ticket-Manager/Defect.h">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="/home/mochal/Ticket-Manager/EmptyListException.cpp">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="/home/mochal/Ticket-Manager/EmptyListException.h">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="/home/mochal/Ticket-Manager/Task.cpp">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="/home/mochal/Ticket-Manager/Task.h">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="/home/mochal/Ticket-Manager/Test.cpp">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="/home/mochal/Ticket-Manager/Test.h">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="/home/mochal/Ticket-Manager/Ticket.cpp">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="/home/mochal/Ticket-Manager/Ticket.h">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="/home/mochal/Ticket-Manager/TicketBuilder.cpp">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="/home/mochal/Ticket-Manager/TicketBuilder.h">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="/home/mochal/Ticket-Manager/TicketManager.cpp">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="/home/mochal/Ticket-Manager/TicketManager.h">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="/home/mochal/Ticket-Manager/UnhandledArgumentException.cpp">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="/home/mochal/Ticket-Manager/UnhandledArgumentException.h">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="/home/mochal/Ticket-Manager/UnmatchedIdException.cpp">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="/home/mochal/Ticket-Manager/UnmatchedIdException.h">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="/home/mochal/Ticket-Manager/UserStory.cpp">
+			<Option target="TicketManager"/>
+		</Unit>
+		<Unit filename="/home/mochal/Ticket-Manager/UserStory.h">
+			<Option target="TicketManager"/>
+		</Unit>
+=======
+>>>>>>> main
 		<Unit filename="/home/mochal/Ticket-Manager/main.cpp">
 			<Option target="TicketManager"/>
 		</Unit>

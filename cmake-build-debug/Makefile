@@ -129,6 +129,319 @@ TicketManager/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/build
 .PHONY : TicketManager/fast
 
+<<<<<<< HEAD
+App.o: App.cpp.o
+.PHONY : App.o
+
+# target to build an object file
+App.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/App.cpp.o
+.PHONY : App.cpp.o
+
+App.i: App.cpp.i
+.PHONY : App.i
+
+# target to preprocess a source file
+App.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/App.cpp.i
+.PHONY : App.cpp.i
+
+App.s: App.cpp.s
+.PHONY : App.s
+
+# target to generate assembly for a file
+App.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/App.cpp.s
+.PHONY : App.cpp.s
+
+Date.o: Date.cpp.o
+.PHONY : Date.o
+
+# target to build an object file
+Date.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/Date.cpp.o
+.PHONY : Date.cpp.o
+
+Date.i: Date.cpp.i
+.PHONY : Date.i
+
+# target to preprocess a source file
+Date.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/Date.cpp.i
+.PHONY : Date.cpp.i
+
+Date.s: Date.cpp.s
+.PHONY : Date.s
+
+# target to generate assembly for a file
+Date.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/Date.cpp.s
+.PHONY : Date.cpp.s
+
+DefaultTicket.o: DefaultTicket.cpp.o
+.PHONY : DefaultTicket.o
+
+# target to build an object file
+DefaultTicket.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/DefaultTicket.cpp.o
+.PHONY : DefaultTicket.cpp.o
+
+DefaultTicket.i: DefaultTicket.cpp.i
+.PHONY : DefaultTicket.i
+
+# target to preprocess a source file
+DefaultTicket.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/DefaultTicket.cpp.i
+.PHONY : DefaultTicket.cpp.i
+
+DefaultTicket.s: DefaultTicket.cpp.s
+.PHONY : DefaultTicket.s
+
+# target to generate assembly for a file
+DefaultTicket.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/DefaultTicket.cpp.s
+.PHONY : DefaultTicket.cpp.s
+
+Defect.o: Defect.cpp.o
+.PHONY : Defect.o
+
+# target to build an object file
+Defect.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/Defect.cpp.o
+.PHONY : Defect.cpp.o
+
+Defect.i: Defect.cpp.i
+.PHONY : Defect.i
+
+# target to preprocess a source file
+Defect.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/Defect.cpp.i
+.PHONY : Defect.cpp.i
+
+Defect.s: Defect.cpp.s
+.PHONY : Defect.s
+
+# target to generate assembly for a file
+Defect.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/Defect.cpp.s
+.PHONY : Defect.cpp.s
+
+EmptyListException.o: EmptyListException.cpp.o
+.PHONY : EmptyListException.o
+
+# target to build an object file
+EmptyListException.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/EmptyListException.cpp.o
+.PHONY : EmptyListException.cpp.o
+
+EmptyListException.i: EmptyListException.cpp.i
+.PHONY : EmptyListException.i
+
+# target to preprocess a source file
+EmptyListException.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/EmptyListException.cpp.i
+.PHONY : EmptyListException.cpp.i
+
+EmptyListException.s: EmptyListException.cpp.s
+.PHONY : EmptyListException.s
+
+# target to generate assembly for a file
+EmptyListException.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/EmptyListException.cpp.s
+.PHONY : EmptyListException.cpp.s
+
+Task.o: Task.cpp.o
+.PHONY : Task.o
+
+# target to build an object file
+Task.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/Task.cpp.o
+.PHONY : Task.cpp.o
+
+Task.i: Task.cpp.i
+.PHONY : Task.i
+
+# target to preprocess a source file
+Task.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/Task.cpp.i
+.PHONY : Task.cpp.i
+
+Task.s: Task.cpp.s
+.PHONY : Task.s
+
+# target to generate assembly for a file
+Task.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/Task.cpp.s
+.PHONY : Task.cpp.s
+
+Test.o: Test.cpp.o
+.PHONY : Test.o
+
+# target to build an object file
+Test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/Test.cpp.o
+.PHONY : Test.cpp.o
+
+Test.i: Test.cpp.i
+.PHONY : Test.i
+
+# target to preprocess a source file
+Test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/Test.cpp.i
+.PHONY : Test.cpp.i
+
+Test.s: Test.cpp.s
+.PHONY : Test.s
+
+# target to generate assembly for a file
+Test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/Test.cpp.s
+.PHONY : Test.cpp.s
+
+Ticket.o: Ticket.cpp.o
+.PHONY : Ticket.o
+
+# target to build an object file
+Ticket.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/Ticket.cpp.o
+.PHONY : Ticket.cpp.o
+
+Ticket.i: Ticket.cpp.i
+.PHONY : Ticket.i
+
+# target to preprocess a source file
+Ticket.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/Ticket.cpp.i
+.PHONY : Ticket.cpp.i
+
+Ticket.s: Ticket.cpp.s
+.PHONY : Ticket.s
+
+# target to generate assembly for a file
+Ticket.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/Ticket.cpp.s
+.PHONY : Ticket.cpp.s
+
+TicketBuilder.o: TicketBuilder.cpp.o
+.PHONY : TicketBuilder.o
+
+# target to build an object file
+TicketBuilder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/TicketBuilder.cpp.o
+.PHONY : TicketBuilder.cpp.o
+
+TicketBuilder.i: TicketBuilder.cpp.i
+.PHONY : TicketBuilder.i
+
+# target to preprocess a source file
+TicketBuilder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/TicketBuilder.cpp.i
+.PHONY : TicketBuilder.cpp.i
+
+TicketBuilder.s: TicketBuilder.cpp.s
+.PHONY : TicketBuilder.s
+
+# target to generate assembly for a file
+TicketBuilder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/TicketBuilder.cpp.s
+.PHONY : TicketBuilder.cpp.s
+
+TicketManager.o: TicketManager.cpp.o
+.PHONY : TicketManager.o
+
+# target to build an object file
+TicketManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/TicketManager.cpp.o
+.PHONY : TicketManager.cpp.o
+
+TicketManager.i: TicketManager.cpp.i
+.PHONY : TicketManager.i
+
+# target to preprocess a source file
+TicketManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/TicketManager.cpp.i
+.PHONY : TicketManager.cpp.i
+
+TicketManager.s: TicketManager.cpp.s
+.PHONY : TicketManager.s
+
+# target to generate assembly for a file
+TicketManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/TicketManager.cpp.s
+.PHONY : TicketManager.cpp.s
+
+UnhandledArgumentException.o: UnhandledArgumentException.cpp.o
+.PHONY : UnhandledArgumentException.o
+
+# target to build an object file
+UnhandledArgumentException.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/UnhandledArgumentException.cpp.o
+.PHONY : UnhandledArgumentException.cpp.o
+
+UnhandledArgumentException.i: UnhandledArgumentException.cpp.i
+.PHONY : UnhandledArgumentException.i
+
+# target to preprocess a source file
+UnhandledArgumentException.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/UnhandledArgumentException.cpp.i
+.PHONY : UnhandledArgumentException.cpp.i
+
+UnhandledArgumentException.s: UnhandledArgumentException.cpp.s
+.PHONY : UnhandledArgumentException.s
+
+# target to generate assembly for a file
+UnhandledArgumentException.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/UnhandledArgumentException.cpp.s
+.PHONY : UnhandledArgumentException.cpp.s
+
+UnmatchedIdException.o: UnmatchedIdException.cpp.o
+.PHONY : UnmatchedIdException.o
+
+# target to build an object file
+UnmatchedIdException.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/UnmatchedIdException.cpp.o
+.PHONY : UnmatchedIdException.cpp.o
+
+UnmatchedIdException.i: UnmatchedIdException.cpp.i
+.PHONY : UnmatchedIdException.i
+
+# target to preprocess a source file
+UnmatchedIdException.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/UnmatchedIdException.cpp.i
+.PHONY : UnmatchedIdException.cpp.i
+
+UnmatchedIdException.s: UnmatchedIdException.cpp.s
+.PHONY : UnmatchedIdException.s
+
+# target to generate assembly for a file
+UnmatchedIdException.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/UnmatchedIdException.cpp.s
+.PHONY : UnmatchedIdException.cpp.s
+
+UserStory.o: UserStory.cpp.o
+.PHONY : UserStory.o
+
+# target to build an object file
+UserStory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/UserStory.cpp.o
+.PHONY : UserStory.cpp.o
+
+UserStory.i: UserStory.cpp.i
+.PHONY : UserStory.i
+
+# target to preprocess a source file
+UserStory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/UserStory.cpp.i
+.PHONY : UserStory.cpp.i
+
+UserStory.s: UserStory.cpp.s
+.PHONY : UserStory.s
+
+# target to generate assembly for a file
+UserStory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/UserStory.cpp.s
+.PHONY : UserStory.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -137,6 +450,16 @@ main.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/main.cpp.o
 .PHONY : main.cpp.o
 
+=======
+main.o: main.cpp.o
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+>>>>>>> main
 main.i: main.cpp.i
 .PHONY : main.i
 
@@ -162,6 +485,48 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... TicketManager"
+<<<<<<< HEAD
+	@echo "... App.o"
+	@echo "... App.i"
+	@echo "... App.s"
+	@echo "... Date.o"
+	@echo "... Date.i"
+	@echo "... Date.s"
+	@echo "... DefaultTicket.o"
+	@echo "... DefaultTicket.i"
+	@echo "... DefaultTicket.s"
+	@echo "... Defect.o"
+	@echo "... Defect.i"
+	@echo "... Defect.s"
+	@echo "... EmptyListException.o"
+	@echo "... EmptyListException.i"
+	@echo "... EmptyListException.s"
+	@echo "... Task.o"
+	@echo "... Task.i"
+	@echo "... Task.s"
+	@echo "... Test.o"
+	@echo "... Test.i"
+	@echo "... Test.s"
+	@echo "... Ticket.o"
+	@echo "... Ticket.i"
+	@echo "... Ticket.s"
+	@echo "... TicketBuilder.o"
+	@echo "... TicketBuilder.i"
+	@echo "... TicketBuilder.s"
+	@echo "... TicketManager.o"
+	@echo "... TicketManager.i"
+	@echo "... TicketManager.s"
+	@echo "... UnhandledArgumentException.o"
+	@echo "... UnhandledArgumentException.i"
+	@echo "... UnhandledArgumentException.s"
+	@echo "... UnmatchedIdException.o"
+	@echo "... UnmatchedIdException.i"
+	@echo "... UnmatchedIdException.s"
+	@echo "... UserStory.o"
+	@echo "... UserStory.i"
+	@echo "... UserStory.s"
+=======
+>>>>>>> main
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
