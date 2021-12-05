@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+<<<<<<< HEAD
   "/home/mochal/Ticket-Manager/App.cpp" "/home/mochal/Ticket-Manager/cmake-build-debug/CMakeFiles/TicketManager.dir/App.cpp.o"
   "/home/mochal/Ticket-Manager/Date.cpp" "/home/mochal/Ticket-Manager/cmake-build-debug/CMakeFiles/TicketManager.dir/Date.cpp.o"
   "/home/mochal/Ticket-Manager/DefaultTicket.cpp" "/home/mochal/Ticket-Manager/cmake-build-debug/CMakeFiles/TicketManager.dir/DefaultTicket.cpp.o"
@@ -21,6 +22,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/mochal/Ticket-Manager/UnhandledArgumentException.cpp" "/home/mochal/Ticket-Manager/cmake-build-debug/CMakeFiles/TicketManager.dir/UnhandledArgumentException.cpp.o"
   "/home/mochal/Ticket-Manager/UnmatchedIdException.cpp" "/home/mochal/Ticket-Manager/cmake-build-debug/CMakeFiles/TicketManager.dir/UnmatchedIdException.cpp.o"
   "/home/mochal/Ticket-Manager/UserStory.cpp" "/home/mochal/Ticket-Manager/cmake-build-debug/CMakeFiles/TicketManager.dir/UserStory.cpp.o"
+=======
+>>>>>>> main
   "/home/mochal/Ticket-Manager/main.cpp" "/home/mochal/Ticket-Manager/cmake-build-debug/CMakeFiles/TicketManager.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

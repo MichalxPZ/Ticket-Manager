@@ -129,6 +129,7 @@ TicketManager/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/build
 .PHONY : TicketManager/fast
 
+<<<<<<< HEAD
 App.o: App.cpp.o
 .PHONY : App.o
 
@@ -449,6 +450,16 @@ main.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/main.cpp.o
 .PHONY : main.cpp.o
 
+=======
+main.o: main.cpp.o
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicketManager.dir/build.make CMakeFiles/TicketManager.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+>>>>>>> main
 main.i: main.cpp.i
 .PHONY : main.i
 
@@ -474,6 +485,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... TicketManager"
+<<<<<<< HEAD
 	@echo "... App.o"
 	@echo "... App.i"
 	@echo "... App.s"
@@ -513,6 +525,8 @@ help:
 	@echo "... UserStory.o"
 	@echo "... UserStory.i"
 	@echo "... UserStory.s"
+=======
+>>>>>>> main
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

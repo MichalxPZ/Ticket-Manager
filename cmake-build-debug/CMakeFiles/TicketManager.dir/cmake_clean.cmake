@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+<<<<<<< HEAD
   "CMakeFiles/TicketManager.dir/App.cpp.o"
   "CMakeFiles/TicketManager.dir/Date.cpp.o"
   "CMakeFiles/TicketManager.dir/DefaultTicket.cpp.o"
@@ -12,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/TicketManager.dir/UnhandledArgumentException.cpp.o"
   "CMakeFiles/TicketManager.dir/UnmatchedIdException.cpp.o"
   "CMakeFiles/TicketManager.dir/UserStory.cpp.o"
+=======
+>>>>>>> main
   "CMakeFiles/TicketManager.dir/main.cpp.o"
   "TicketManager"
   "TicketManager.pdb"

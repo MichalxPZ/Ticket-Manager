@@ -82,6 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+<<<<<<< HEAD
 		<Unit filename="/home/mochal/Ticket-Manager/App.cpp">
 			<Option target="TicketManager"/>
 		</Unit>
@@ -160,6 +161,8 @@
 		<Unit filename="/home/mochal/Ticket-Manager/UserStory.h">
 			<Option target="TicketManager"/>
 		</Unit>
+=======
+>>>>>>> main
 		<Unit filename="/home/mochal/Ticket-Manager/main.cpp">
 			<Option target="TicketManager"/>
 		</Unit>
