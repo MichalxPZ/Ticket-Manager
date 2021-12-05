@@ -7,8 +7,6 @@
 #IncludeRegexTransform: 
 
 /home/mochal/Ticket-Manager/App.cpp
-unistd.h
--
 App.h
 /home/mochal/Ticket-Manager/App.h
 

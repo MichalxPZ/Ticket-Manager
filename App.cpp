@@ -97,7 +97,7 @@ void App::addTicketMenu() {
                     changeDeadLineMenu(ticket);
                 } catch (UnhandledArgumentException) {
                     cout << "Unhandled argumens provided" << endl;
-                    creating = !creating;
+                    return;
                 }
                 break;
             }
@@ -153,6 +153,7 @@ void App::updateTicketMenu(Ticket* ticket) {
                         changeDeadLineMenu(ticket);
                     } catch (UnhandledArgumentException) {
                         cout << "Ungandled argumens provided" << endl;
+                        return;
                     }
                     break;
                 }
