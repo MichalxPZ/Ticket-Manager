@@ -1,4 +1,5 @@
-# Ticket-Manager
+# Ticket-Manager  
+https://github.com/MichalxPZ/Ticket-Manager
 
 ## Table of contents
 1. [App description](#description)  
