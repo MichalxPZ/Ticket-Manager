@@ -33,5 +33,7 @@ As tickets may differ from each other and not every field has to be filled I thi
 4.12 implemented classes with builder, facing some issues with memory, trying to figure out why I'm losing data injected into Ticket instances.  
 4.12 resolved problems with memory, implemented working builder pattern and user interface. However there are some known issues of the UI that have to be fixed tomorrow.  
 5.12 creating UML graph for ducumentation, could't resolve the issue with providing wrong argument when updating date through UI - UI goes in a loop  
+9.12 during classes I made changes as my project defense, I've created virtual method in class Ticket to display topic and ID and overrided it in subclasses to display ID and topic and call the base class method and also I've overrided a plus operator for Defect class
 #### Plan
 5.12 - finish app development
+9.12 - defense of the project
