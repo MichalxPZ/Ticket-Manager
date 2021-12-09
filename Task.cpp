@@ -7,3 +7,9 @@
 string Task::getType() {
     return "Task";
 }
+
+void Task::zadanie1() {
+    cout << "Pochodna: " << this->getId() << " "  << this->topic << " a bazowa: ";
+    Ticket::zadanie1();
+    cout << endl;
+}

@@ -27,6 +27,8 @@ public:
     virtual string getType() = 0;
     friend ostream& operator<<(ostream& os, Ticket* ticket);
     static TicketBuilder& builder(Ticket* ticket);
+
+    virtual void zadanie1();
 };
 
 

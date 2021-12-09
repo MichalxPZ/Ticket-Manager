@@ -12,6 +12,8 @@ class Test : public Ticket {
 public:
     Test() = default;
     string getType() override;
+
+    void zadanie1() override;
 };
 
 

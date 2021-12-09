@@ -12,6 +12,9 @@ class UserStory : public Ticket {
 public:
     UserStory() = default;
     string getType() override;
+
+    void zadanie1() override;
+
 };
 
 

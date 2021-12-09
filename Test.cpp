@@ -7,3 +7,9 @@
 string Test::getType() {
     return "Test";
 }
+
+void Test::zadanie1() {
+    cout << "Pochodna: " << this->getId() << " "  << this->topic << "va bazowa: ";
+    Ticket::zadanie1();
+    cout << endl;
+}

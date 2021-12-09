@@ -12,6 +12,10 @@ class Defect : public Ticket {
 public:
     Defect() = default;
     string getType() override;
+
+    void zadanie1() override;
+
+    Defect* operator + (Defect defect);
 };
 
 

@@ -7,3 +7,9 @@
 string UserStory::getType() {
     return "User Story";
 }
+
+void UserStory::zadanie1() {
+    cout << "Pochodna: " << this->getId() << " "  << this->topic << " a bazowa: ";
+    Ticket::zadanie1();
+    cout << endl;
+}

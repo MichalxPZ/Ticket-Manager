@@ -24,3 +24,7 @@ void Ticket::setId(int id) {
 int Ticket::getId() {
     return this->ID;
 }
+
+void Ticket::zadanie1() {
+    cout << this->topic << " " << this->ID << endl;
+}

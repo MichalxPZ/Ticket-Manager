@@ -13,6 +13,8 @@ public:
     DefaultTicket() = default;
     string getType() override;
 
+    void zadanie1() override;
+
 };
 
 
